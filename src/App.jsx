@@ -1,8 +1,16 @@
+import Greet from "./components/Greeting";
+import Add from "./components/Add";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div>
-      <h1>React + Vite</h1>
-    </div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>    
   )
 }
 
